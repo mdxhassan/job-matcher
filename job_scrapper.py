@@ -82,7 +82,7 @@ def split_key_info(key_info):
 def job_scrapper():
     job_list = []
     # scrape the first 3 pages of jobs
-    number_of_pages = 2
+    number_of_pages = 1
     try:
         for page in range(1, number_of_pages + 1):
             page_url = f"https://thehub.io/jobs?page={page}"
@@ -122,31 +122,3 @@ def job_scrapper():
 
     print(f"Job listings saved to {csv_file}")
     print(f"Total number of jobs found: {len(job_list)}")
-
-
-#---
-
-
-# WebDriverWait(driver, 5).until(
-#     EC .presence_of_element_located((By.CLASS_NAME, "gLFyf"))
-#     )
-
-# input_element = driver.find_element(By.CLASS_NAME, "gLFyf")
-# input_element.clear()
-# input_element.send_keys("mdxh behance" + Keys.RETURN)
-
-# WebDriverWait(driver, 5).until(
-#     EC .presence_of_element_located((By.PARTIAL_LINK_TEXT, "Mohamed"))
-#     )
-
-# link = driver.find_element(By.PARTIAL_LINK_TEXT, "Mohamed")
-# link.click()
-
-# time.sleep(10)
-
-
-#WebDriverWait(driver, 5).until(
-#    EC .presence_of_element_located((By.CLASS_NAME, "my-10"))
-#    )
-
-#jobs = driver.find_elements(By.CLASS_NAME, 'my-10')

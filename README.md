@@ -7,7 +7,7 @@ AI Job Matcher is a Python program that uses OpenAI's GPT model to match job see
 - Scrapes job listings from thehub.io
 - Analyzes user input (skills, strengths, and job preferences)
 - Uses OpenAI's GPT model to recommend the top 3 most suitable jobs
-- Provides explanations for each job recommendation
+- Provides short explanations for each job recommendation
 
 ## Requirements
 
@@ -37,5 +37,3 @@ To run the AI Job Matcher:
 Follow the prompts to input your skills, strengths, and job preferences.
 
 The program will display the top 3 most suitable jobs and provide explanations for each recommendation.
-
-## License

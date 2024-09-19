@@ -2,3 +2,4 @@ selenium
 flask
 openai
 tiktoken
+webdriver_manager
