@@ -81,8 +81,8 @@ def split_key_info(key_info):
 
 def job_scrapper():
     job_list = []
-    # scrape the first 3 pages of jobs
-    number_of_pages = 1
+    # How many pages you want to scrape
+    number_of_pages = 2
     try:
         for page in range(1, number_of_pages + 1):
             page_url = f"https://thehub.io/jobs?page={page}"

@@ -9,6 +9,13 @@ AI Job Matcher is a Python program that uses OpenAI's GPT model to match job see
 - Uses OpenAI's GPT model to recommend the top 3 most suitable jobs
 - Provides short explanations for each job recommendation
 
+## Why thehub.io?
+
+Thehub.io is a platform that provides job listings and resources for job seekers. It is a great platform for job seekers to find suitable job listings and for employers to post job listings.
+
+## Data Extracted 
+The scraper collects job listings from thehub.io, including job titles, company names, locations, job types, descriptions, and URLs. The purpose is to match these job opportunities with users' skills, ensuring relevant and personalized job recommendations. By aligning a user's skill set with the job requirements, the program helps to streamline the job search process, providing tailored opportunities that are more likely to match the user's qualifications and skills.
+
 ## Requirements
 
 - Python 3.7+
